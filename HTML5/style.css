@@ -10,3 +10,10 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: red;
 }
+
+#cont {
+    background-image: url('https://www.w3schools.com/html/workplace.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

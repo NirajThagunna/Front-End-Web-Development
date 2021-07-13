@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 15px;
+        }
+
+        th {
+            text-align: left;
+        }
+
+        caption {
+            padding: 5px;
+            margin-top: 10px;
+            font-size: 25px;
+        }
+
+        #first th {
+            background-color: black;
+            color: white;
+        }
+
+        #first tr:nth-child(even) {
+            background-color: rgb(238, 95, 95);
+        }
+
+        #first tr:nth-child(odd) {
+            background-color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>HTML Tables</h1>
+
+    <table style="width: 100%;">
+        <caption>colspan</caption>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Phone Number</th>
+        </tr>
+
+        <tr>
+            <td>Niraj Thagunna</td>
+            <td>9848502720</td>
+            <td>8307885157</td>
+        </tr>
+    </table>
+
+    <table style="width: 100%;">
+        <caption>rowspan</caption>
+        <tr>
+            <th>Name: </th>
+            <td>Niraj Thagunna</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Phone Number: </th>
+            <td>9848502720</td>
+        </tr>
+        <tr>
+            <td>8307885157</td>
+        </tr>
+        <tr>
+            <td>0975658468</td>
+        </tr>
+    </table>
+
+    <br><br>
+    <table style="width: 100%;" id="first">
+        <tr>
+            <th>Name</th>
+            <th>Roll Number</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Niraj Thagunna</td>
+            <td>80</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Niru Thagunna</td>
+            <td>70</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Shirinkhala Khatiwada</td>
+            <td>60</td>
+            <td>26</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
