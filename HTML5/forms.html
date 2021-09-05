@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+
+    <h1>HTML Forms</h1>
+
+    <form target="_self" method="POST" autocomplete="on">
+        <label for="fname">First Name: </label>
+        <input type="text" id="fname" name="fname"><br /><br />
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname" name="lname">
+
+        <p>Choose your favorite color: </p>
+        <input type="radio" id="html" name="fav_language" value="HTML"/>
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label>
+        <input type="radio" id="js" name="fav_language" value="JavaScript">
+        <label for="js">JavaScript</label>
+
+        <p>Checkboxes</p>
+        <input type="checkbox" id="first" name="first" value="Java">
+        <label for="first">Java</label><br>
+        <input type="checkbox" id="second" name="second" value="Python">
+        <label for="second">Python</label><br>
+        <input type="checkbox" name="third" id="third" value="DSA">
+        <label for="third">DSA</label><br><br>
+
+        <p>Select - Dropdown Box</p>
+
+        <label for="languages">Choose any languages: </label>
+        <select name="languages" id="languages">
+            <option value="Java">Java OOPs</option>
+            <option value="DSA" selected>DSA Java</option>
+            <option value="Python">Python ML</option>
+        </select> <br><br>
+
+        <p>Textarea Element</p>
+        <textarea name="message" id="msg" cols="30" rows="10">
+            Niraj Thagunna back! I am a software engineer and worked in Google for more than 20 years.
+        </textarea>
+
+        <br><br><input type="submit" value="Submit">
+    </form>
+
+    <br><button type="button">Click Me!</button>
+    
+</body>
+</html>
