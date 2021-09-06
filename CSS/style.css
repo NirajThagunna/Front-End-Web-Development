@@ -100,3 +100,77 @@ span#txt {
     content: '\f015';
 }
 
+
+div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+div a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: rgb(241, 216, 216);
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+div a:link {
+    color: red;
+}
+
+div a:visited {
+    color: white;
+}
+
+div a:hover {
+    color: black;
+    background-color: white;
+}
+
+div a:active {
+    color: blue;
+}
+
+table {
+    border: 1px solid red;
+    margin-top: 50px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+table td {
+    text-align: center;
+}
+
+table th {
+    background-color: aqua;
+    color: red;
+    padding-bottom: 12px;
+    padding-top: 10px;
+}
+
+table tr:nth-child(even) {
+    background-color: saddlebrown;
+    color: magenta;
+}
+
+table tr:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+
+table tr:hover {
+    background-color: darkslategrey;
+}
+
+caption {
+    caption-side: bottom;
+}
