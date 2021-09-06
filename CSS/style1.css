@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#fst {
+    border: 2px solid aqua;
+    margin: auto;
+    width: 500px;
+}
+
+#snd {
+    border: 2px solid red;
+    margin: auto;
+    max-width: 500px;
+}
+
+#thrd {
+    border: 2px solid greenyellow;
+    position: fixed;
+    right: 0;
+    width: 200px;
+}
+
+div#sticky {
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
